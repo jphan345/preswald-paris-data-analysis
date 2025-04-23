@@ -1,0 +1,24 @@
+[project]
+title = "Paris 2024 Olympic Games Track & Field Results"
+version = "0.1.0"
+port = 8501
+slug = "preswald-project"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Paris 2024 Olympic Games Track & Field Results"
+logo = "images/logo.png"
+favicon = "images/olympic-logo.png"
+primaryColor = "#F89613"
+
+[data.sample_csv]
+type = "csv"
+path = "data/sample.csv"
+
+[data.results_csv]
+type = "csv"
+path = "data/results.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
